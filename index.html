@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Online Course Registration System</title>
+   <!...External CSS...>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <!...Internal CSS...>
+   <style>
+	h1 {
+		/* Border around text shadow */
+  		text-shadow: -1.5px 0 blue, 0 1.5px blue, 1.5px 0 blue, 0 -1.5px blue;
+		/* linear-gradient (diagonal) */
+		background-image: linear-gradient(to bottom left,rgba(255,255,255,0), rgba(255,255,255,1));
+	}
+	/* Text shadow */
+	h2 {
+  		text-shadow: 2px 2px 5px red;
+	}
+   	label{
+		font-size:large;
+   		display: block; 
+		width: 700px;
+   	}
+   	input{
+		font-size:medium;
+		height:25px; 
+		width:500px;
+		/* Filter brightness */
+		filter:brightness(70%);
+   	}
+	/* Filter contrast */
+	img{
+		filter:contrast(150%);	
+	}
+   </style>
+</head>
+<body>
+<h1 class="topic">Course Registration</h1>
+<form method="post" action="register.php">
+<?php include('errors.php'); ?>
+<img src="registerhere.png" alt="register here" width="420" height="420" style="float:right">
+
+   
+ <p>
+      Admin<a href="register.php">Admin</a>
+    </p>
+ <p>
+      Student<a href="stu_login.php">Student</a>
+    </p>
+</p>
+</form>
+</body>
+</html>
