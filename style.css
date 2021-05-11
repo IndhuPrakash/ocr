@@ -1,0 +1,75 @@
+/*universal selector*/
+* {
+  	margin: 1.5px;
+  	padding: 1.5px;
+}
+/*class selectors*/
+.topic
+{
+   	position:sticky;
+   	border: 2px solid white;
+   	padding: 40px;
+   	background-color:#5FD6F9;
+   	text-align: center;
+   	color: white;
+}
+.btn-group button{
+  	background-color: #4CAF50;
+  	border: 1px solid green;
+  	color: white; 
+  	padding: 10px 24px;
+  	text-align: center;
+  	cursor: pointer;
+  	float: right;
+  	box-shadow: 10px 10px 5px grey;
+  	filter:saturate(1.5);
+}
+.btn-group:after {
+  	content: "";
+  	clear: both;
+  	display: table;
+}
+.header {
+  	width: 30%;
+  	margin: 50px auto 0px;
+  	color: white;
+  	background: #5F9EA0;
+  	border: 1px solid #B0C4DE;
+  	border-bottom: none;
+  	border-radius: 10px 10px 0px 0px;
+  	padding: 20px;
+  	text-align: center;
+}
+.btn {
+  	padding: 10px;
+  	text-align: center;
+  	font-size: 15px;
+  	color: white;
+  	background-color: #5F9EA0;
+  	border: none;
+  	border-radius: 5px;
+/* transition timing fuction */
+  	transition-timing-function: linear;
+/* transition duration */
+  	transition-duration:2s;
+}
+.btn:hover {
+  	height: 45px;
+}
+.form {
+	margin: 5px auto;
+	padding:10px;
+	width: 500px;
+}
+.form label{
+	display: block;
+	text-align: left;
+	float: left;
+}
+.form input{
+	display: block;
+	text-align: left;
+	float: right;
+/* Filter brightness */
+	filter:brightness(70%);
+}
